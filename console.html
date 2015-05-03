@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Code voorbeeld Peter Verkooijen!</title>
+</head>
+	<body>
+		<div class="console">
+			<div class="console__head">Last login: <span class="console__date"></span> </div>
+			<div class="console__textfield"></div>
+		</div>
+		
+		<div class="editor js-hide">
+			<div class="editor__head"><span class="editor__gnu">GNU application 2.0.6</span>Solicitatiebrief.txt</div>
+			
+			<div class="editor__textfield">
+				<span class="line">
+					<span id="line__writable"></span>
+					<span class="line__cursor">&nbsp;</span>
+				</span>
+
+				<span class="editor__line">
+					<span class="editor__line--writable"></span>
+					<span class="editor__line--cursor">&nbsp;</span>
+				</span>
+			</div>
+		
+			<div class="editor__foot">
+				<div class="foot-col">
+					<span class="inverted">^G</span> Get Help
+					<br>
+					<span class="inverted">^X</span> Exit
+				</div>
+
+				<div class="foot-col">
+					<span class="inverted">^O</span> WriteOut
+					<br>
+					<span class="inverted">^J</span> Justify
+				</div>
+
+				<div class="foot-col">
+					<span class="inverted">^R</span> Read File
+					<br>
+					<span class="inverted">^W</span> Where Is
+				</div>
+
+				<div class="foot-col">
+					<span class="inverted">^Y</span> Prev Page
+					<br>
+					<span class="inverted">^V</span> Next Page
+				</div>
+
+				<div class="foot-col">
+					<span class="inverted">^K</span> Cut Text
+					<br>
+					<span class="inverted">^U</span> UnCut Text
+				</div>
+
+				<div class="foot-col">
+					<span class="inverted">^C</span> Cur Pos
+					<br>
+					<span class="inverted">^T</span> To Spell
+				</div>
+			</div>
+		</div>
+
+		<script src="jquery.js"></script>
+		<script src="console.js"></script>
+	</body>
+</html>

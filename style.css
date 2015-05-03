@@ -1,0 +1,156 @@
+html,body{
+	background:#000;
+	color:#00CC00;
+	font-family:'menloregular';
+	font-size:11px;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+body{
+	/*padding:10px;*/
+}
+
+.console.js-hide{
+	display:none;
+}
+.current{
+
+}
+.editor.js-hide {
+	display:none;
+}
+.console__line{
+	display:block;
+}
+
+.current  .line__cursor.writing {
+	display:inline-block;
+	width:5px;
+	height:14px;
+	background:#00CC00;
+ 
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+}
+
+.current  .line__cursor {
+	display:inline-block;
+	width:5px;
+	height:14px;
+	background:#00CC00;
+ 
+  -webkit-animation: blink 1s linear 0s infinite;
+  -moz-animation: blink 1s linear 0s infinite;
+  -ms-animation: blink 1s linear 0s infinite;
+  -o-animation: blink 1s linear 0s infinite;
+}
+
+/* APPLICATION **/
+.editor{
+	width:100%;
+	height:95%;
+	top:0;
+	left:0;
+	position:abslolute;
+}
+
+.editor__head{
+	height:20px;
+	background:#00CC00;
+	color:#000;
+	position:absolute;
+	top:0;
+	width:100%;
+	text-align:center;
+}
+.editor__textfield{
+	margin-top:60px;
+	width:100%;
+	height:100%;
+	padding:10px;
+}
+.editor__textfield__line{
+	display:block;
+	line-height:12px;
+	min-height:12px;
+	float:left;
+	width:100%;
+}
+
+.editor__gnu{
+	display:inline-block;
+	float:left;
+	margin-left:10px;
+}
+
+.editor__foot{
+	height:50px;
+	padding:0px 10px;
+	background:#000;
+	color:#00CC00;
+	border-top:;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+
+.foot-col{
+	float:left;
+	width:16.666%;
+}
+
+
+#typewriter{
+	display:inline;
+}
+
+
+
+.inverted{
+	background:#00CC00;
+	color:#000;
+}
+
+a {
+	color:#00CC00;
+	text-decoration:none;
+}
+
+@-webkit-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+ 
+@-moz-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+ 
+@-ms-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
+ 
+@-o-keyframes blink {
+  0%   { background: #0a0 }
+  47%  { background: #090 }
+  50%  { background: #000 }
+  97%  { background: #000 }
+  100% { background: #090 }
+}
